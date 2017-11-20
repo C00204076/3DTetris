@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - I-Block
+  - L-Block
+  - J-Block
+  - S-Block
+  - Z-Block
+  - T-Block
+  - O-Block
   layers:
   - Default
   - TransparentFX
