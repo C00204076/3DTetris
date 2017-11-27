@@ -51,10 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Assets\_Scripts\BGScroller.cs" />
      <Compile Include="Assets\Assets\_Scripts\Score.cs" />
-     <Compile Include="Assets\Assets\Materials\Material placeholder.cs" />
+     <Compile Include="Assets\Assets\_Scripts\Scripts placeholder.cs" />
+     <Compile Include="Assets\Assets\Materials\Materials placeholder.cs" />
      <Compile Include="Assets\Assets\Prefabs\Prefabs placeholder.cs" />
-     <Compile Include="Assets\Assets\Textures\Texture placeholder.cs" />
+     <Compile Include="Assets\Assets\Textures\Textures placeholder.cs" />
+     <None Include="Assets\Assets\Textures\Matrix.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
