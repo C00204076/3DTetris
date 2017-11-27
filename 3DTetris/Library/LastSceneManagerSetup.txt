@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Assets/_Scenes/3DTetris.unity
-  isLoaded: 1
-  isActive: 1
