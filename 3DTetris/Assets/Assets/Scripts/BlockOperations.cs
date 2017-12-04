@@ -6,9 +6,8 @@ using UnityEngine.SceneManagement;
 public class BlockOperations : MonoBehaviour {
 
     public static int gridWidth = 10;
-    public static int gridHeight = 22;
+    public static int gridHeight = 20;
     float fallSpeed = 0;
-    float timer = 2f;
 
     public static Transform[,] grid = new Transform[gridWidth, gridHeight];
     GameObject obj;
@@ -22,9 +21,13 @@ public class BlockOperations : MonoBehaviour {
         IB = obj.GetComponent<InstantiateBlock>();
 		if (!IsValid())
         {
+           Debug.Log("!valid");
+           SceneManager.LoadScene(0);
+           Destroy(gameObject);
+        }
+        else
+        {
             Debug.Log("Is Valid");
-           //SceneManager.LoadScene(0);
-           //Destroy(gameObject);
         }
 	}
 	
@@ -71,7 +74,7 @@ public class BlockOperations : MonoBehaviour {
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.DownArrow) || timer < 1)
+        if (Input.GetKeyDown(KeyCode.DownArrow) || (Time.time - fallSpeed) >= 1)
         {
             Debug.Log("Timer < 1");
             transform.position += new Vector3(0, -1, 0);
@@ -87,11 +90,9 @@ public class BlockOperations : MonoBehaviour {
                 IB.SpawnBlock();
                 enabled = false;
             }
-            timer = 5f;
         }
-      //  fallSpeed += Time.time;
-        timer -= Time.time;
-        Debug.Log("Timer :" + timer);
+        fallSpeed += Time.time;
+
 	}
 
     /// <summary>
@@ -134,7 +135,7 @@ public class BlockOperations : MonoBehaviour {
     /// <returns></returns>
     bool IsFull(int y)
     {
-        for (int x = 0; x < gridWidth; y++)
+        for (int x = 0; x < gridWidth; x++)
         {
             if (grid[x, y] == null)
             {
