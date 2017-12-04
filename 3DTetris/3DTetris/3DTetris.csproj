@@ -88,6 +88,7 @@
     <Compile Include="Assets\Assets\_Scripts\Scripts placeholder.cs" />
     <Compile Include="Assets\Assets\Materials\Materials placeholder.cs" />
     <Compile Include="Assets\Assets\Prefabs\Prefabs placeholder.cs" />
+    <Compile Include="Assets\Assets\Resources\Resources placeholder.cs" />
     <Compile Include="Assets\Assets\Textures\Textures placeholder.cs" />
   </ItemGroup>
   <ItemGroup>

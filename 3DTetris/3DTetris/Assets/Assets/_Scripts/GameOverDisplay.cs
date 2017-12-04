@@ -17,13 +17,16 @@ public class GameOverDisplay : MonoBehaviour
     public Text playerScore;
     //
     Score scoreRef;
+    //
+    GameObject obj;
 
 
 	// Use this for initialization
 	void Start ()
     {
-        /* 
-        scoreRef = new Score();
+        obj = GameObject.Find("GameController");
+
+        scoreRef = (Score)obj.GetComponent("GameController");
         //*/
 
         /*
@@ -36,12 +39,12 @@ public class GameOverDisplay : MonoBehaviour
 
         //*/
         
-        //playerScore.text = "Your Score: " + scoreRef.ScoreVal;
+        playerScore.text = "Your Score: " + scoreRef.ScoreVal;
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-       // playerScore.text = "Your Score: " + scoreRef.ScoreVal;
+       playerScore.text = "Your Score: " + scoreRef.ScoreVal;
     }
 }
