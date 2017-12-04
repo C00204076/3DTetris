@@ -21,6 +21,12 @@ public class MainMenuBtns : MonoBehaviour
     }
 
     //
+    public void PlayTwoGameBtn(string playGameLevel)
+    {
+        SceneManager.LoadScene(playGameLevel);
+    }
+
+    //
     public void QuitGameBtn()
     {
         Application.Quit();

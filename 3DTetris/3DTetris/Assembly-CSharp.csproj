@@ -52,13 +52,22 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Assets\_Scripts\BGScroller.cs" />
+     <Compile Include="Assets\Assets\_Scripts\FileLoading.cs" />
+     <Compile Include="Assets\Assets\_Scripts\GameOverBtn.cs" />
+     <Compile Include="Assets\Assets\_Scripts\GameOverDisplay.cs" />
+     <Compile Include="Assets\Assets\_Scripts\LevelIndex.cs" />
      <Compile Include="Assets\Assets\_Scripts\MainMenuBtns.cs" />
      <Compile Include="Assets\Assets\_Scripts\Score.cs" />
      <Compile Include="Assets\Assets\_Scripts\Scripts placeholder.cs" />
      <Compile Include="Assets\Assets\Materials\Materials placeholder.cs" />
      <Compile Include="Assets\Assets\Prefabs\Prefabs placeholder.cs" />
+<<<<<<< HEAD
 <<<<<<< HEAD:3DTetris/3DTetris/Assembly-CSharp.csproj
+=======
+     <Compile Include="Assets\Assets\Resources\Resources placeholder.cs" />
+>>>>>>> da0e1d488d2453d1ee0bc431a530cf57c0efe164
      <Compile Include="Assets\Assets\Textures\Textures placeholder.cs" />
+     <None Include="Assets\Assets\Resources\hiscore.txt" />
      <None Include="Assets\Assets\Textures\Matrix.shader" />
 =======
      <Compile Include="Assets\Assets\Scripts\BlockOperations.cs" />
