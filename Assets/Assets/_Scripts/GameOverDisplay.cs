@@ -14,19 +14,19 @@ using UnityEngine;
 public class GameOverDisplay : MonoBehaviour
 {
     //
-    public Text playerScore;
+   // public Text playerScore;
     //
-    Score scoreRef;
+   // Score scoreRef;
     //
-    GameObject obj;
+  //  GameObject obj;
 
 
 	// Use this for initialization
 	void Start ()
     {
-        obj = GameObject.Find("GameController");
+       // obj = GameObject.Find("GameController");
 
-        scoreRef = (Score)obj.GetComponent("GameController");
+       // scoreRef = (Score)obj.GetComponent("GameController");
         //*/
 
         /*
@@ -39,12 +39,12 @@ public class GameOverDisplay : MonoBehaviour
 
         //*/
         
-        playerScore.text = "Your Score: " + scoreRef.ScoreVal;
+       // playerScore.text = "Your Score: " + scoreRef.ScoreVal;
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-       playerScore.text = "Your Score: " + scoreRef.ScoreVal;
+      // playerScore.text = "Your Score: " + scoreRef.ScoreVal;
     }
 }

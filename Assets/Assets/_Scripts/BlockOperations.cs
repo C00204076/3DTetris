@@ -25,7 +25,7 @@ public class BlockOperations : MonoBehaviour {
 
         obj = GameObject.Find("GameController");
         scoreText = GetComponent<UnityEngine.UI.Text>();
-        scoreText.text = "Score:";
+        //scoreText.text = "Score:";
         IB = obj.GetComponent<InstantiateBlock>();
 		if (!IsValid())
         {
@@ -41,7 +41,7 @@ public class BlockOperations : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        scoreText.text = ("Score: " + score);
+       // scoreText.text = ("Score: " + score);
         //Debug.Log("BlockOperations.Update()");
         if (Input.GetKeyDown(KeyCode.A))
         {
