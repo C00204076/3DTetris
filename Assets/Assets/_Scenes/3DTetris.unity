@@ -109,6 +109,7 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
 --- !u!1 &217297531
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,10 +173,65 @@ BoxCollider:
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &217297534
+=======
+--- !u!224 &115609773
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 216408185}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -8.457786}
+  m_LocalScale: {x: 12.676492, y: 1, z: 5.8781295}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 25, y: -50}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &115609774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 216408185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!33 &156141724
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
   m_GameObject: {fileID: 217297531}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &217297535
@@ -192,22 +248,38 @@ Transform:
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &293129720
+=======
+  m_GameObject: {fileID: 216408185}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &216408185
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
   - component: {fileID: 293129723}
   - component: {fileID: 293129722}
   - component: {fileID: 293129721}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
+=======
+  - component: {fileID: 216408186}
+  - component: {fileID: 156141724}
+  - component: {fileID: 115609773}
+  - component: {fileID: 115609774}
+  m_Layer: 0
+  m_Name: bottom
+  m_TagString: Boundary
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
 --- !u!114 &293129721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,6 +314,58 @@ MonoBehaviour:
   m_DragThreshold: 5
 --- !u!4 &293129723
 Transform:
+=======
+--- !u!1 &216408185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 216408186}
+  - component: {fileID: 156141724}
+  - component: {fileID: 115609773}
+  - component: {fileID: 115609774}
+  m_Layer: 0
+  m_Name: bottom
+  m_TagString: Boundary
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &216408186
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 216408185}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &337668244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1165371407}
+  - component: {fileID: 1165371408}
+  - component: {fileID: 337668248}
+  m_Layer: 5
+  m_Name: LevelText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &337668248
+MeshFilter:
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -282,7 +406,11 @@ Transform:
   m_LocalScale: {x: 12.495611, y: 1, z: 5.87813}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
   m_RootOrder: 2
+=======
+  m_RootOrder: 6
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &407843006
 MeshRenderer:
@@ -342,10 +470,15 @@ GameObject:
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
   - component: {fileID: 1022729651}
   - component: {fileID: 1022729650}
   - component: {fileID: 1022729649}
   - component: {fileID: 1022729648}
+=======
+  - component: {fileID: 1397040451}
+  - component: {fileID: 1397040453}
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -353,11 +486,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
 --- !u!114 &1022729648
+=======
+--- !u!224 &1165371407
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 337668244}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 21.9}
+  m_LocalScale: {x: 8.415536, y: 1, z: 19.24016}
+  m_Children: []
+  m_Father: {fileID: 1726218355}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 25, y: -600}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1165371408
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
   m_GameObject: {fileID: 1022729647}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -370,10 +526,111 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
 --- !u!114 &1022729649
+=======
+  m_GameObject: {fileID: 337668244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!224 &1397040451
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 551925273}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -8.457786}
+  m_LocalScale: {x: 95.85802, y: 1, z: 5.8781295}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1397040453
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 551925273}
+--- !u!1 &1534379394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1534379395}
+  m_Layer: 0
+  m_Name: 
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1534379395
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1534379394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1726218351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1726218355}
+  - component: {fileID: 1726218354}
+  - component: {fileID: 1726218352}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1726218352
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
   m_GameObject: {fileID: 1022729647}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -391,6 +648,26 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
 --- !u!223 &1022729650
+=======
+  m_GameObject: {fileID: 1726218351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.1, y: 15.3, z: 9.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2099180297}
+  - {fileID: 551925274}
+  - {fileID: 156141721}
+  - {fileID: 407843005}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!223 &1726218354
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
 Canvas:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -420,16 +697,23 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
   - {fileID: 293129723}
   - {fileID: 1464348193}
   m_Father: {fileID: 0}
   m_RootOrder: 7
+=======
+  - {fileID: 1165371407}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
 --- !u!1 &1464348192
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,6 +788,8 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1464348192}
+=======
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
 --- !u!1 &1765053006
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,7 +798,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1765053008}
-  - component: {fileID: 1765053007}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -520,6 +805,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
 --- !u!114 &1765053007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540,6 +826,8 @@ MonoBehaviour:
   - {fileID: 1680168200928288, guid: c8a31bd21992be247a490df4b5a5fbf8, type: 2}
   - {fileID: 1696114116594322, guid: c8dddcbab946ba5409c9b8aed1a4030d, type: 2}
   - {fileID: 1575517452011700, guid: 48eb740a7ab287040804965681b01f9d, type: 2}
+=======
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
 --- !u!4 &1765053008
 Transform:
   m_ObjectHideFlags: 0
@@ -551,7 +839,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1828846585
 GameObject:
@@ -640,6 +928,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -5.9570003, y: 0, z: 0}
 --- !u!1001 &1870766741
@@ -692,6 +981,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 698c41b31e873f144950f14a1049f19d, type: 2}
   m_IsPrefabParent: 0
+=======
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
 --- !u!1 &2099180296
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,7 +1014,11 @@ Transform:
   m_LocalScale: {x: 92.10549, y: 1, z: 5.8781295}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:Assets/Assets/_Scenes/3DTetris.unity
   m_RootOrder: 1
+=======
+  m_RootOrder: 3
+>>>>>>> 1d2bd37b43263692dd7cf6e9ad21e058fc5098dc:3DTetris/3DTetris/Assets/Assets/_Scenes/3DTetris.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!23 &2099180298
 MeshRenderer:
@@ -837,5 +1134,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}

@@ -19,6 +19,10 @@ public class FileLoading : MonoBehaviour
     public Text hi_score;
     //
     public TextAsset textFile;
+    //
+    Score scoreRef;
+    //
+    GameObject obj;
 
     private int hi_Score;
     string file, fileText;
@@ -26,6 +30,7 @@ public class FileLoading : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
+        //obj = GameObject.Find("GameController");
         file = textFile.text;
         updateBest();
     }

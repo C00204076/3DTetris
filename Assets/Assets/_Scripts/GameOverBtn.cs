@@ -20,6 +20,12 @@ public class GameOverBtn : MonoBehaviour
     }
 
     //
+    public void ReplayTwoBtn(string replayLevel)
+    {
+        SceneManager.LoadScene(replayLevel);
+    }
+
+    //
     public void MainBtn(string mainMenu)
     {
         SceneManager.LoadScene(mainMenu);
