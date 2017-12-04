@@ -57,8 +57,15 @@
      <Compile Include="Assets\Assets\_Scripts\Scripts placeholder.cs" />
      <Compile Include="Assets\Assets\Materials\Materials placeholder.cs" />
      <Compile Include="Assets\Assets\Prefabs\Prefabs placeholder.cs" />
+<<<<<<< HEAD:3DTetris/3DTetris/Assembly-CSharp.csproj
      <Compile Include="Assets\Assets\Textures\Textures placeholder.cs" />
      <None Include="Assets\Assets\Textures\Matrix.shader" />
+=======
+     <Compile Include="Assets\Assets\Scripts\BlockOperations.cs" />
+     <Compile Include="Assets\Assets\Scripts\InstantiateBlock.cs" />
+     <Compile Include="Assets\Assets\Scripts\MoveBlock.cs" />
+     <Compile Include="Assets\Assets\Textures\Texture placeholder.cs" />
+>>>>>>> BlockSpawning:3DTetris/Assembly-CSharp.csproj
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
