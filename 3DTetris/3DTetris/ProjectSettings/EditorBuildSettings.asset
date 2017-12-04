@@ -11,3 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/_Scenes/3DTetris.unity
     guid: af16709ee7b937149ba138d5ea427754
+  - enabled: 1
+    path: Assets/Assets/_Scenes/Level2.unity
+    guid: cab740adb1dc9e944b3d280af6fee8e8
+  - enabled: 1
+    path: Assets/Assets/_Scenes/GameOver.unity
+    guid: 9eebe6d591498e24ea6a381473f38a28
